@@ -20,7 +20,6 @@ const ans = randomProfile.realname
 let randTweet = {};
 
 
-
 fetch(`https://safe-sierra-25241.herokuapp.com/${randUser}`)
 	.then(response => response.json())
 	.then(data => game(data))
